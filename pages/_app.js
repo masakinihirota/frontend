@@ -1,7 +1,7 @@
 import App from 'next/app'
 import Head from 'next/head'
 import Layout from '../components/Layout'
-import { withData } from '../lib/apollo'
+import withData from '../lib/apollo'
 
 class MyApp extends App {
   render() {
@@ -24,4 +24,5 @@ class MyApp extends App {
   }
 }
 
+// export default MyApp
 export default withData(MyApp)
