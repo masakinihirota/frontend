@@ -1,0 +1,72 @@
+{
+  "image": [
+    {
+      "_id": "62ac5b8a00e72e53f0df1257",
+      "name": "restaurant1",
+      "alternativeText": "",
+      "caption": "",
+      "hash": "restaurant1_3898533423",
+      "ext": ".jpeg",
+      "mime": "image/jpeg",
+      "size": 325.07,
+      "width": 1920,
+      "height": 1280,
+      "url": "/uploads/restaurant1_3898533423.jpeg",
+      "formats": {
+        "thumbnail": {
+          "hash": "thumbnail_restaurant1_3898533423",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 234,
+          "height": 156,
+          "size": 11.27,
+          "path": null,
+          "url": "/uploads/thumbnail_restaurant1_3898533423.jpeg"
+        },
+        "large": {
+          "hash": "large_restaurant1_3898533423",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 1000,
+          "height": 667,
+          "size": 101.7,
+          "path": null,
+          "url": "/uploads/large_restaurant1_3898533423.jpeg"
+        },
+        "medium": {
+          "hash": "medium_restaurant1_3898533423",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 750,
+          "height": 500,
+          "size": 63.89,
+          "path": null,
+          "url": "/uploads/medium_restaurant1_3898533423.jpeg"
+        },
+        "small": {
+          "hash": "small_restaurant1_3898533423",
+          "ext": ".jpeg",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 333,
+          "size": 35.14,
+          "path": null,
+          "url": "/uploads/small_restaurant1_3898533423.jpeg"
+        }
+      },
+      "provider": "local",
+      "related": [],
+      "createdAt": "2022-06-17T10:46:34.239Z",
+      "updatedAt": "2022-06-18T14:42:27.163Z",
+      "__v": 0,
+      "id": "62ac5b8a00e72e53f0df1257"
+    }
+  ],
+  "_id": "62ac5bb300e72e53f0df1258",
+  "name": "Italian restaurant",
+  "description": "イタリアンのレストランです。",
+  "createdAt": "2022-06-17T10:47:15.964Z",
+  "updatedAt": "2022-06-17T10:47:15.970Z",
+  "__v": 0,
+  "id": "62ac5bb300e72e53f0df1258"
+}

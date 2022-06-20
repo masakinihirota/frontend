@@ -4,9 +4,14 @@ import { Card, CardBody, CardImg, CardTitle, Col, Row } from 'reactstrap'
 const RestaurantList = () => {
   return (
     <Row>
-      <Col>
+      <Col xs="6" sm="4">
+        {/* <Card style={{ margin: '0 0.5rem 20px 0.5rem' }}> */}
         <Card>
-          <CardImg src="" />
+          <CardImg
+            src="http://localhost:1337/uploads/restaurant1_3898533423.jpeg"
+            top={true}
+            style={{ height: 250 }}
+          />
           <CardBody>
             <CardTitle>Italian restaurant</CardTitle>
             <CardTitle>イタリアンのレストランです。</CardTitle>
@@ -22,6 +27,25 @@ const RestaurantList = () => {
           </div>
         </Card>
       </Col>
+
+      <style jsx>
+        {`
+          a {
+            color: white;
+          }
+          a: link {
+            text-decoration: none;
+            color: white;
+          }
+          a:hover {
+            color: white;
+          }
+          .card-columns {
+              column-cont: 3;
+            }
+          }
+        `}
+      </style>
     </Row>
   )
 }
